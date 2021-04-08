@@ -25,7 +25,7 @@ class Rope {
       var pointB = this.pointB;
       push();
 
-      stroke(48, 22, 8);
+      stroke("white");
       strokeWeight(4);
 
       line(pointB.x, pointB.y, pointA.x, pointA.y);
